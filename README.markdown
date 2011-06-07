@@ -2,7 +2,7 @@
 Streamed parser and stringifier that act like writable and readable streams
 
 ## ParseStream
-You can build a `ParseString` like so:
+You can build a `ParseStream` like so:
 
 ``` javascript
 var json = require('json-streams');
