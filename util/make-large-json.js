@@ -2,15 +2,11 @@
 
 var size = 0;
 
-/*
- * coucou
- */
 
 function write(data) {
     process.stdout.write(data);
 }
 
-//salut
 
 function noop() {}
 function random(min, max) {
