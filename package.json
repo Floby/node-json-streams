@@ -13,7 +13,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "0.4"
+    "node": "0.4 - 0.9.0"
   },
   "dependencies": {
     "tokenizer": "0.1",
