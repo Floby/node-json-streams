@@ -20,7 +20,7 @@
     "parser": "0.1"
   },
   "devDependencies": {
-    "vows": "*"
+    "vows": "0.6"
   },
   "scripts": {
     "test": "vows ./test/*.vow.js"
