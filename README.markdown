@@ -1,6 +1,10 @@
 # Synopsis
 Streamed parser and stringifier that act like writable and readable streams
 
+## Run tests
+
+`npm test`
+
 ## ParseStream
 You can build a `ParseStream` like so:
 
