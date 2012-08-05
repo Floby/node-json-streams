@@ -45,6 +45,19 @@ suite.addBatch({
         "exponential notation, negative exponent": assertSameParsed('4e-3'),
         "exponential notation, negative exponent, negative value": assertSameParsed('-4e-3'),
         "exponential notation, negative exponent, negative value, decimal part": assertSameParsed('-4.8e-3'),
+    },
+    "When parsing a boolean": {
+        "false": assertSameParsed('false'),
+        "true": assertSameParsed('true'),
+    },
+    "When parsing null": {
+        "null": assertSameParsed('null')
+    },
+    "When parsing a string": {
+        "Simple string": assertSameParsed('"hello world!"'),
+        "utf8 string": assertSameParsed('"안녕하세요"'),
+        "with escaped characters": assertSameParsed('"haha \\" hoho"'),
+        "with encoded characters": assertSameParsed('"\\u0CA0_\\u0ca0"'),
     }
 }).export(module);
 
