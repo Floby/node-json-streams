@@ -3,6 +3,8 @@ Streamed parser and stringifier that act like writable and readable streams
 
 ## Run tests
 
+[![Build Status](https://secure.travis-ci.org/[floby]/[node-json-streams].png)](http://travis-ci.org/[floby]/[node-json-streams])
+
 `npm test`
 
 ## ParseStream
