@@ -23,6 +23,6 @@
     "vows": "0.6"
   },
   "scripts": {
-    "test": "vows ./test/*.vow.js"
+    "test": "vows ./test/*.vow.js && nodeunit ./test/test-*.js"
   }
 }
