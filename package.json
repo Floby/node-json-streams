@@ -17,10 +17,12 @@
   },
   "dependencies": {
     "tokenizer": "0.1",
-    "parser": "0.1"
+    "parser": "0.1",
+    "object-iterator":"0.2"
   },
   "devDependencies": {
-    "vows": "0.6"
+    "vows": "0.6",
+    "nodeunit":"0.7"
   },
   "scripts": {
     "test": "nodeunit test/test-*.js"
