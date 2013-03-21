@@ -3,6 +3,9 @@
   "description": "Streams for parsing and stringifying big JSON objects",
   "version": "0.2.0",
   "homepage": "http://github.com/floby/node-json-streams",
+  "engine": {
+    "node":">=0.10"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/floby/node-json-streams.git"
