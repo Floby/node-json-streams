@@ -1,5 +1,7 @@
 # Synopsis
-Streamed parser and stringifier that act like writable and readable streams
+Streaming parser and stringifier that act like writable and readable streams
+
+_/!\ This module has been partly rewritten to work with new streams in node >= 0.10 /!\_
 
 ## Run tests
 
