@@ -28,5 +28,8 @@
   },
   "scripts": {
     "test": "nodeunit test/test-*.js"
+  },
+  "bin": {
+    "json-parse":"bin/parse.js"
   }
 }
