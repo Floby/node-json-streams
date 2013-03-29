@@ -1,5 +1,5 @@
 var stringify = require('../').StringifyStream;
-var sink = require('./sink');
+var sink = require('stream-sink');
 
 exports.testStringify = function(test) {
     var source = {

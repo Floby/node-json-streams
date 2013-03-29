@@ -24,7 +24,8 @@
     "object-iterator": "0.2"
   },
   "devDependencies": {
-    "nodeunit": "0.7"
+    "nodeunit": "0.7",
+    "stream-sink":"1.x.x"
   },
   "scripts": {
     "test": "nodeunit test/test-*.js"
